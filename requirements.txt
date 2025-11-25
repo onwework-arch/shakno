@@ -1,0 +1,8 @@
+streamlit
+requests
+python-slugify
+PyYAML
+Jinja2
+markdown
+openai
+schedule

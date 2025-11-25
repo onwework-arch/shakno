@@ -1,0 +1,6 @@
+url: "https://weworkontech.com/wp-json/wp/v2"
+username: "your_wp_userShaknname"
+application_password: "wEUQ oQH7 dBzM DJ1m q1mG yqhA"
+default_categories: ["Tech", "Reviews"]
+default_tags: ["review"]
+affiliate_template: "https://amzn.to/4iCfQhr"

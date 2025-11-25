@@ -1,0 +1,44 @@
+# {{ title }}
+
+**Focus Keyword:** {{ keyword }}
+**Meta Description:** {{ meta_description }}
+
+## Introduction
+{{ intro }}
+
+## Features
+{{ features }}
+
+## Review
+{{ review }}
+
+## Pros
+{{ pros }}
+
+## Cons
+{{ cons }}
+
+## Specs
+{{ specs }}
+
+## Comparisons
+{{ comparisons }}
+
+## FAQs
+{{ faqs }}
+
+## Internal Links
+{% for l in internal_links %}
+- [{{ l.title }}]({{ l.slug }}.html)
+{% endfor %}
+
+## Affiliate
+{{ affiliate_section }}
+
+## Images
+{% if image.url %}
+![{{ image.alt }}]({{ image.url }})
+{% endif %}
+
+## Conclusion
+{{ conclusion }}
